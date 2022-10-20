@@ -30,7 +30,7 @@ git clone git@github.com:Lqs-github/ACL.git
 
 and then Run *ACL.m* file.
 
-Finally, you can see the GGO segmentation results for 840 slices and the GroundTrue.
+Finally, you can see the GGO segmentation results for 311 slices and the GroundTrue.
 
 ![GGO](ReadmeFig/GGO.png)
 
