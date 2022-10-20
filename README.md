@@ -6,7 +6,7 @@
 
 ------
 
-![Fig2_flow_chart](G:\硕士日常汇报\20221009_COVID论文\生物信号\COVID_1019\Figs\Fig2_flow_chart.png)
+![Fig2_flow_chart](ReadmeFig/Fig2_flow_chart.png)
 
 ##### COVID-19 CT Ground-Glass Opacity Segmentation Based on Attention Mechanism Threshold
 
