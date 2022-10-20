@@ -40,7 +40,7 @@ Finally, you can see the GGO segmentation results for 840 slices and the GroundT
 
 If you want to see the result of the segmentation of the **lung cavity**, replace lines **245 - 253** in the ***ACL.m*** file with the following code.
 
-![Lung](ReadmeFig/Lung.png)
+![lung](ReadmeFig/lung.png)
 
 ```matlab
 subplot(141)
