@@ -56,4 +56,3 @@ subplot(144)
 imshow(lung);
 title('Lung');
 ```
-
