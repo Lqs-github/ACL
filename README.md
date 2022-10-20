@@ -2,23 +2,23 @@
 
 ------
 
-#### Introduction
+### Introduction
 
 ------
 
 ![Fig2_flow_chart](ReadmeFig/Fig2_flow_chart.png)
 
-##### COVID-19 CT Ground-Glass Opacity Segmentation Based on Attention Mechanism Threshold
+#### COVID-19 CT Ground-Glass Opacity Segmentation Based on Attention Mechanism Threshold
 
 Yunbo Rao , Qingsong Lv , Shaoning Zeng∗ , Yuling Yi , Cheng Huang , Yun Gao , Zhanglin Cheng , Jihong Sun, 2022
 
-##### What we are doing
+### What we are doing
 
 - [x] GGO Segmentation
 - [x] Lung cavity segmentation
-- [x] Provide a collated dataset of 840 slices
+- [x] Provide a collated dataset of 311 slices
 
-##### Preparation
+### Preparation
 
 ------
 
@@ -32,11 +32,15 @@ and then Run *ACL.m* file.
 
 Finally, you can see the GGO segmentation results for 840 slices and the GroundTrue.
 
+![GGO](ReadmeFig/GGO.png)
+
 ------
 
-##### Other
+### Other
 
-If you want to see the result of the segmentation of the **lung cavity**, replace lines **245 - 254** in the ***ACL.m*** file with the following code.
+If you want to see the result of the segmentation of the **lung cavity**, replace lines **245 - 253** in the ***ACL.m*** file with the following code.
+
+![Lung](ReadmeFig/Lung.png)
 
 ```matlab
 subplot(141)
@@ -51,6 +55,5 @@ title('GroundTrue');
 subplot(144)
 imshow(lung);
 title('Lung');
-hold on
 ```
 
